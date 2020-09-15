@@ -7,9 +7,13 @@
 	## OS Packages
 	### APT Repositories
 	#### ansible
-	```
-	test
-	```
+
+```shell
+  def foo
+    puts 'bar'
+  end
+```
+	
 	#### docker
 	#### opera
 	#### google-chrome
