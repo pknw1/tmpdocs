@@ -1,4 +1,3 @@
-
 ## OS Packages
 ### APT Repositories
 #### ansible
@@ -9,7 +8,36 @@
   end
 ```
 	
-	#### docker
-	#### opera
-	#### google-chrome
-	#### Plex
+#### docker
+
+```shell
+  def foo
+    puts 'bar'
+  end
+```
+	
+#### opera
+
+```shell
+  def foo
+    puts 'bar'
+  end
+```
+	
+#### google-chrome
+
+```shell
+  def foo
+    puts 'bar'
+  end
+```
+	
+#### Plex
+
+```shell
+  def foo
+    puts 'bar'
+  end
+```
+	
+	
