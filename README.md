@@ -41,38 +41,23 @@
   end
 ```
 ### cron
-
-    Download Permissions
-
+####Download Perms
 ### fail2ban
-
-    SSH Jail
-
-    Scripts
-
-      Check IP Banned
-
-      Unban IP
-
+#### SSH Jail
+#### Scripts
+##### Check IP Banned
+##### Unban IP
 ### iptables
-
 ### QEMU/KVM
-
-    Windows
-
-    OSX
-
+#### Windows
+#### OSX
 ### nfs-kernal-server
 ### rsyslog
 ### ssh
 ### sudoers
 ### /etc/skel
 ### UFW
-
-    GUFW
-
+#### GUFW
 ###   X11
-
-    xfce4
-
+#### xfce4
 ###   XRDP	
