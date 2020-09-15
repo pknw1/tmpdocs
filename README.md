@@ -13,7 +13,7 @@ print("hello world!")
 </details>
 
 ## OS Packages
-<details><summary>### APT Repositories</summary>
+<details><summary>APT Repositories</summary>
 #### ansible
 
 ```shell
@@ -55,6 +55,7 @@ print("hello world!")
 ```
 
 </details>
+
 ### cron
 ####Download Perms
 ### fail2ban
