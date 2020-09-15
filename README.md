@@ -1,133 +1,132 @@
 
-## OS Packages
-### APT Repositories
+	## OS Packages
+	### APT Repositories
+		#### ansible
+		#### docker
+		#### opera
+		#### google-chrome
+		#### Plex
 
-    #### ansible
-    #### docker
-    #### opera
-    #### google-chrome
-    #### Plex
+	### cron
+		#### Download 
+		#### Permissions
 
-### cron
-	#### Download 
-	#### Permissions
+	### fail2ban
 
-### fail2ban
+	### SSH Jail
 
-### SSH Jail
+	####    Scripts
 
-####    Scripts
+		  Check IP Banned
 
-      Check IP Banned
+		  Unban IP
 
-      Unban IP
+	###   iptables
 
-###   iptables
+	###   QEMU/KVM
 
-###   QEMU/KVM
+		Windows
 
-    Windows
+		OSX
 
-    OSX
+	###   nfs-kernal-server
 
-###   nfs-kernal-server
+	###   rsyslog
 
-###   rsyslog
+	###   ssh
 
-###   ssh
+	###     sudoers
 
-###     sudoers
+	###     /etc/skel
 
-###     /etc/skel
+	###   UFW
 
-###   UFW
+	####    GUFW
 
-####    GUFW
+	##   X11
 
-##   X11
+		xfce4
 
-    xfce4
+	##   XRDP
 
-##   XRDP
+	3rd Party 
+	Packages
 
-3rd Party 
-Packages
+	  Docker
 
-  Docker
+		Config
 
-    Config
+		Compose
 
-    Compose
+		  Networking
 
-      Networking
+			proxy
 
-        proxy
+		  Services
 
-      Services
+			Portainer
 
-        Portainer
+			Proxy
 
-        Proxy
+			OpenVPN
 
-        OpenVPN
+			Pi-Hole
 
-        Pi-Hole
+		  Portal
 
-      Portal
+			OMBI
 
-        OMBI
+			qBittorrent
 
-        qBittorrent
+			Radarr
 
-        Radarr
+			Sonarr
 
-        Sonarr
+			Jackett
 
-        Jackett
+		  common-config
+		restart: always
+		networks:
+		  - proxy
+		dns:
+		  - 8.8.8.8
+		environment:
+		  - PUID=666
+		  - PGID=666
+		  - TZ="Europe/London"
+		  - VIRTUAL_HOST=<service>.pknw1.co.uk
+		  - VIRTUAL_PROTO=https
+		volumes:
+		  - /etc/localtime:/etc/localtime:ro
+		  - ./config/<service>:/config
+		  - /shared:/shared
+		  - /download:/download
+		  - /content:/content
+		  - /tmp:/tmp
+		restart: unless-stopped
 
-      common-config
-    restart: always
-    networks:
-      - proxy
-    dns:
-      - 8.8.8.8
-    environment:
-      - PUID=666
-      - PGID=666
-      - TZ="Europe/London"
-      - VIRTUAL_HOST=<service>.pknw1.co.uk
-      - VIRTUAL_PROTO=https
-    volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - ./config/<service>:/config
-      - /shared:/shared
-	  - /download:/download
-	  - /content:/content
-	  - /tmp:/tmp
-    restart: unless-stopped
+	  webmin
 
-  webmin
+		Additional Modules
 
-    Additional Modules
+		  iPhone Theme
 
-      iPhone Theme
+		  VM Manager
 
-      VM Manager
+	  Plex Media Server
 
-  Plex Media Server
+	  HAProxy
 
-  HAProxy
+		Config
 
-    Config
+		Scripts
 
-    Scripts
+		  check-config
 
-      check-config
+	  ansible
 
-  ansible
+		server-base
 
-    server-base
+		portal-base
 
-    portal-base
-
-USer and Groups
+	USer and Groups
