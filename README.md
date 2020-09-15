@@ -1,7 +1,6 @@
 
 
 	## OS Packages
-	
 	<details><summary>APT Repositories</summary>
 	
 	#### ansible
@@ -45,8 +44,10 @@
 	```
 
 	</details>
+	
+### test 
 
-	<details><summary>OS PAckages</summary>
+<details><summary>OS PAckages</summary>
 
 	### cron
 	####Download Perms
@@ -70,50 +71,7 @@
 	#### xfce4
 	###   XRDP	
 	
-	</details>
-		
-		### cron
-			#### Download 
-			#### Permissions
-
-		### fail2ban
-
-		### SSH Jail
-
-		####    Scripts
-
-			  Check IP Banned
-
-			  Unban IP
-
-		###   iptables
-
-		###   QEMU/KVM
-
-			Windows
-
-			OSX
-
-		###   nfs-kernal-server
-
-		###   rsyslog
-
-		###   ssh
-
-		###     sudoers
-
-		###     /etc/skel
-
-		###   UFW
-
-		####    GUFW
-
-		##   X11
-
-			xfce4
-
-		##   XRDP
-
+</details>
 		3rd Party 
 		Packages
 
