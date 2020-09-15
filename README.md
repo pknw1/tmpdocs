@@ -2,23 +2,19 @@
 ### OS Packages
 #### APT Repositories
 
-    ansible
-
+    ##### ansible
     docker
-
     opera
-
     google-chrome
-
     Plex
 
-  cron
+#### cron
 
     Download Permissions
 
-  fail2ban
+#### fail2ban
 
-    SSH Jail
+#### SSH Jail
 
     Scripts
 
@@ -26,33 +22,33 @@
 
       Unban IP
 
-  iptables
+####   iptables
 
-  QEMU/KVM
+####   QEMU/KVM
 
     Windows
 
     OSX
 
-  nfs-kernal-server
+####   nfs-kernal-server
 
-  rsyslog
+####   rsyslog
 
-  ssh
+####   ssh
 
-    sudoers
+####     sudoers
 
-    /etc/skel
+####     /etc/skel
 
-  UFW
+####   UFW
 
     GUFW
 
-  X11
+####   X11
 
     xfce4
 
-  XRDP
+####   XRDP
 
 3rd Party 
 Packages
