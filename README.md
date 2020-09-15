@@ -3,10 +3,10 @@
 #### APT Repositories
 
     ##### ansible
-    docker
-    opera
-    google-chrome
-    Plex
+    ##### docker
+    ##### opera
+    ##### google-chrome
+    ##### Plex
 
 #### cron
 
