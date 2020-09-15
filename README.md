@@ -1,203 +1,196 @@
-## collapsible markdown?
 
-<details><summary>CLICK ME</summary>
-<p>
 
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-## OS Packages
-<details><summary>APT Repositories</summary>
-#### ansible
-
-```shell
-  def foo
-    puts 'bar'
-  end
-```
+	## OS Packages
+	<details><summary>APT Repositories</summary>
 	
-#### docker
+	#### ansible
 
-```shell
-  def foo
-    puts 'bar'
-  end
-```
-	
-#### opera
+	```shell
+	  def foo
+		puts 'bar'
+	  end
+	```
+		
+	#### docker
 
-```shell
-  def foo
-    puts 'bar'
-  end
-```
-	
-#### google-chrome
+	```shell
+	  def foo
+		puts 'bar'
+	  end
+	```
+		
+	#### opera
 
-```shell
-  def foo
-    puts 'bar'
-  end
-```
-	
-#### Plex
+	```shell
+	  def foo
+		puts 'bar'
+	  end
+	```
+		
+	#### google-chrome
 
-```shell
-  def foo
-    puts 'bar'
-  end
-```
+	```shell
+	  def foo
+		puts 'bar'
+	  end
+	```
+		
+	#### Plex
 
-</details>
+	```shell
+	  def foo
+		puts 'bar'
+	  end
+	```
 
-### cron
-####Download Perms
-### fail2ban
-#### SSH Jail
-#### Scripts
-##### Check IP Banned
-##### Unban IP
-### iptables
-### QEMU/KVM
-#### Windows
-#### OSX
-### nfs-kernal-server
-### rsyslog
-### ssh
-### sudoers
-### /etc/skel
-### UFW
-#### GUFW
-###   X11
-#### xfce4
-###   XRDP	
-	
+	</details>
+
+	<details><summary>OS PAckages</summary>
+
 	### cron
-		#### Download 
-		#### Permissions
-
+	####Download Perms
 	### fail2ban
+	#### SSH Jail
+	#### Scripts
+	##### Check IP Banned
+	##### Unban IP
+	### iptables
+	### QEMU/KVM
+	#### Windows
+	#### OSX
+	### nfs-kernal-server
+	### rsyslog
+	### ssh
+	### sudoers
+	### /etc/skel
+	### UFW
+	#### GUFW
+	###   X11
+	#### xfce4
+	###   XRDP	
+	
+	</details>
+		
+		### cron
+			#### Download 
+			#### Permissions
 
-	### SSH Jail
+		### fail2ban
 
-	####    Scripts
+		### SSH Jail
 
-		  Check IP Banned
+		####    Scripts
 
-		  Unban IP
+			  Check IP Banned
 
-	###   iptables
+			  Unban IP
 
-	###   QEMU/KVM
+		###   iptables
 
-		Windows
+		###   QEMU/KVM
 
-		OSX
+			Windows
 
-	###   nfs-kernal-server
+			OSX
 
-	###   rsyslog
+		###   nfs-kernal-server
 
-	###   ssh
+		###   rsyslog
 
-	###     sudoers
+		###   ssh
 
-	###     /etc/skel
+		###     sudoers
 
-	###   UFW
+		###     /etc/skel
 
-	####    GUFW
+		###   UFW
 
-	##   X11
+		####    GUFW
 
-		xfce4
+		##   X11
 
-	##   XRDP
+			xfce4
 
-	3rd Party 
-	Packages
+		##   XRDP
 
-	  Docker
+		3rd Party 
+		Packages
 
-		Config
+		  Docker
 
-		Compose
+			Config
 
-		  Networking
+			Compose
 
-			proxy
+			  Networking
 
-		  Services
+				proxy
 
-			Portainer
+			  Services
 
-			Proxy
+				Portainer
 
-			OpenVPN
+				Proxy
 
-			Pi-Hole
+				OpenVPN
 
-		  Portal
+				Pi-Hole
 
-			OMBI
+			  Portal
 
-			qBittorrent
+				OMBI
 
-			Radarr
+				qBittorrent
 
-			Sonarr
+				Radarr
 
-			Jackett
+				Sonarr
 
-		  common-config
-		restart: always
-		networks:
-		  - proxy
-		dns:
-		  - 8.8.8.8
-		environment:
-		  - PUID=666
-		  - PGID=666
-		  - TZ="Europe/London"
-		  - VIRTUAL_HOST=<service>.pknw1.co.uk
-		  - VIRTUAL_PROTO=https
-		volumes:
-		  - /etc/localtime:/etc/localtime:ro
-		  - ./config/<service>:/config
-		  - /shared:/shared
-		  - /download:/download
-		  - /content:/content
-		  - /tmp:/tmp
-		restart: unless-stopped
+				Jackett
 
-	  webmin
+			  common-config
+			restart: always
+			networks:
+			  - proxy
+			dns:
+			  - 8.8.8.8
+			environment:
+			  - PUID=666
+			  - PGID=666
+			  - TZ="Europe/London"
+			  - VIRTUAL_HOST=<service>.pknw1.co.uk
+			  - VIRTUAL_PROTO=https
+			volumes:
+			  - /etc/localtime:/etc/localtime:ro
+			  - ./config/<service>:/config
+			  - /shared:/shared
+			  - /download:/download
+			  - /content:/content
+			  - /tmp:/tmp
+			restart: unless-stopped
 
-		Additional Modules
+		  webmin
 
-		  iPhone Theme
+			Additional Modules
 
-		  VM Manager
+			  iPhone Theme
 
-	  Plex Media Server
+			  VM Manager
 
-	  HAProxy
+		  Plex Media Server
 
-		Config
+		  HAProxy
 
-		Scripts
+			Config
 
-		  check-config
+			Scripts
 
-	  ansible
+			  check-config
 
-		server-base
+		  ansible
 
-		portal-base
+			server-base
 
-	USer and Groups
+			portal-base
+
+		USer and Groups
